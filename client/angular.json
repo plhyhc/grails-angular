@@ -51,7 +51,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "grails-angular:build"
+            "browserTarget": "grails-angular:build",
+            "host": "ec2-54-201-112-118.us-west-2.compute.amazonaws.com"
           },
           "configurations": {
             "production": {

@@ -11,6 +11,7 @@ export class NavComponent implements OnInit {
 
   applicationData: any;
   navExpanded: boolean;
+  appTitle: string = 'Welcome';
 
   constructor(private navService: NavService) { }
 
