@@ -24,6 +24,7 @@ To execute both server and client at the same time run the following command:
 
 
 ### Contact Page Screen Shot:
-The site has a Home, About, and Contact page using Angular routing.
-
-![alt text](https://github.com/plhyhc/grails-angular/blob/master/readme_image.png "Screenshot")
+The site has a Home, About, and Contact page using Angular routing. <br/>
+<kbd>
+<img src="https://github.com/plhyhc/grails-angular/blob/master/readme_image.png" />
+</kbd>
