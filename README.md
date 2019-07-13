@@ -1,4 +1,4 @@
-# grails-angular
+# grails-angular [![Build Status](https://travis-ci.org/plhyhc/grails-angular.svg?branch=master)](https://travis-ci.org/plhyhc/grails-angular)
 
 This project has a grails backend and angular frontend.  It was setup for me to learn.  
 The following command was used for inital setup:
