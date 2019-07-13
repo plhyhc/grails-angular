@@ -1,10 +1,15 @@
-language: groovy
 language: java
   - oraclejdk8
 language: node_js
 script:
-- ls -l
+- curl -s get.sdkman.io | bash
+- source "$HOME/.sdkman/bin/sdkman-init.sh"
+- echo sdkman_auto_answer=true > ~/.sdkman/etc/config
+- source "/home/travis/.sdkman/bin/sdkman-init.sh"
+- sdk install grails
 - cd "server"
 - grails test-app
 - cd "../client"
 - ng test
+- cd "../"
+- ./gradlew build
