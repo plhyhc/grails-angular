@@ -3,7 +3,8 @@ language: java
   - oraclejdk8
 language: node_js
 script:
-- cd "plhyhc/grails-angular/server"
+- ls -l
+- cd "server"
 - grails test-app
 - cd "../client"
 - ng test
